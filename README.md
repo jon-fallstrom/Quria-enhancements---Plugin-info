@@ -58,6 +58,20 @@ The Partner Center privacy declarations must match `privacy.html`. In particular
 
 Review the current [Microsoft Edge publishing instructions](https://learn.microsoft.com/en-us/microsoft-edge/extensions/publish/publish-extension) and [Microsoft Edge Add-ons developer policies](https://learn.microsoft.com/en-us/legal/microsoft-edge/extensions/developer-policies) before every submission.
 
+### Swedish store-listing copy
+
+Recommended short description:
+
+> Valfria navigerings-, tillgänglighets- och arbetsflödesförbättringar för personal som använder Axiell Quria i Microsoft Edge.
+
+Place this disclosure near the beginning of the full store description, immediately after the introductory feature description:
+
+> Quria Enhancements är ett oberoende webbläsartillägg för Microsoft Edge, utvecklat och publicerat av Jon Fällström och Vidar Kjaerstadius. Det är inte utvecklat, godkänt, sponsrat eller distribuerat av Axiell. Tillägget är avsett för behörig personal i organisationer som använder Axiell Quria. Varje organisation ansvarar för beslutet att installera och använda tillägget samt för att användningen följer organisationens IT-, informationssäkerhets- och dataskyddsregler.
+
+Follow it with the Quria access requirement:
+
+> Tillägget kräver ett befintligt, behörigt användarkonto i Axiell Quria. Quria-kontot och åtkomsten tillhandahålls inte av tilläggets utvecklare.
+
 ### Certification without a Quria test account
 
 Quria access is issued and controlled by each customer organization. If reviewer credentials cannot be provided because an account would expose confidential patron and circulation data, explain that restriction clearly in **Notes for certification**. Microsoft policy permits a clear and reasonable explanation when test credentials cannot be supplied, but the submission should still give reviewers as much test evidence as possible.
