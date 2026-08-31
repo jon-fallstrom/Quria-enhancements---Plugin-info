@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Privacy policy for the Quria Enhancements extension for Microsoft Edge.">
+    <meta name="referrer" content="no-referrer">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'none'; style-src 'self'; img-src 'self' data:; connect-src 'none'; frame-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+    <link rel="canonical" href="https://jon-fallstrom.github.io/Quria-enhancements---Plugin-info/privacy.html">
+    <link rel="stylesheet" href="styles.css">
+    <title>Privacy Policy — Quria Enhancements</title>
+</head>
+<body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header">
+        <div class="site-header-inner">
+            <a class="brand" href="index.html" aria-label="Quria Enhancements home">
+                <span class="brand-mark" aria-hidden="true">E</span>
+                <span>Quria Enhancements</span>
+            </a>
+            <nav class="site-nav" aria-label="Main navigation">
+                <a href="index.html">Home</a>
+                <a href="privacy.html" aria-current="page">Privacy policy</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main-content" class="page-shell">
+        <article class="document">
+            <p class="eyebrow">Public policy</p>
+            <h1>Privacy Policy</h1>
+            <p class="meta">Effective date and last updated: August 31, 2026</p>
+
+            <div class="notice">
+                <strong>Summary:</strong> Quria Enhancements processes Quria page information locally in Microsoft Edge.
+                It does not send user data to its developers, analytics providers, advertisers, or unrelated third parties.
+            </div>
+
+            <nav class="document-toc" aria-label="Privacy policy contents">
+                <h2>Contents</h2>
+                <ol>
+                    <li><a href="#scope">Scope and purpose</a></li>
+                    <li><a href="#information">Information handled</a></li>
+                    <li><a href="#use">How information is used</a></li>
+                    <li><a href="#transmission">Network activity and sharing</a></li>
+                    <li><a href="#permissions">Microsoft Edge permissions</a></li>
+                    <li><a href="#retention">Retention and user control</a></li>
+                    <li><a href="#security">Security</a></li>
+                    <li><a href="#edge-addons">Microsoft Edge Add-ons disclosure</a></li>
+                    <li><a href="#changes">Changes to this policy</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ol>
+            </nav>
+
+            <section aria-labelledby="scope">
+                <h2 id="scope">1. Scope and purpose</h2>
+                <p>
+                    This policy describes how the Quria Enhancements extension for Microsoft Edge (the “Extension”) handles information.
+                    The Extension's single purpose is to improve staff workflows and usability in Axiell Quria through optional,
+                    user-facing interface and keyboard enhancements.
+                </p>
+                <p>
+                    The Extension is independently maintained by Jon Fällström and Vidar Kjaerstadius. It is not affiliated with,
+                    endorsed by, or produced by Axiell or Quria. This policy does not replace the privacy policies of Axiell,
+                    the user's employer, library, municipality, or other Quria operator.
+                </p>
+            </section>
+
+            <section aria-labelledby="information">
+                <h2 id="information">2. Information the Extension handles</h2>
+
+                <h3>Quria website content</h3>
+                <p>
+                    To provide its selected features, the Extension reads and modifies information already displayed in the
+                    current Quria page in Microsoft Edge. Depending on the page and enabled feature, this may include patron names, identifiers,
+                    contact information, circulation information, search results, form values, branch information, collection
+                    information, and other Quria interface content.
+                </p>
+                <p>
+                    Some optional features transiently process particularly sensitive field values. For example, the Extension
+                    can validate a national identity number entered as a patron search and reuse it in the add-patron form, use
+                    a patron's name and entered contact details to display local form suggestions or summaries, and inspect the
+                    length of a patron PIN field to move focus to its confirmation field. These values are processed only in the
+                    current page and are not placed in extension storage or transmitted to the developers.
+                </p>
+                <p>
+                    The Extension does not copy patron or circulation records into extension storage. Configuration values that
+                    the user explicitly chooses from Quria, such as favorite school names and facet labels, are the limited
+                    exceptions described under “Local storage” below; they do not include patron or circulation record values.
+                </p>
+
+                <h3>User input and interactions</h3>
+                <p>
+                    The Extension responds to user-directed keyboard shortcuts, buttons, searches, and form interactions to
+                    provide its features. These interactions are not sent to the developers and are not used to build profiles,
+                    measure behavior, or provide advertising.
+                </p>
+
+                <h3>Local storage</h3>
+                <p>The Extension may store the following information in the Microsoft Edge profile's local extension storage:</p>
+                <ul>
+                    <li>Whether the user accepted the Extension's privacy notice and whether the Extension is enabled.</li>
+                    <li>Enabled features, theme, navigation, print, and other interface preferences.</li>
+                    <li>
+                        User-created reminder titles, schedules and completion state, and library or desk configuration.
+                        Users should not put patron information in reminder titles.
+                    </li>
+                    <li>Favorite school names, grouped under the corresponding Quria tenant hostname.</li>
+                    <li>Locked facet labels and named facet favorites, grouped under the corresponding Quria tenant hostname.</li>
+                    <li>
+                        Identifiers for the add-patron fields that the user has chosen to highlight; these identify field types
+                        and do not contain the values entered in those fields.
+                    </li>
+                    <li>A generated feature catalogue and non-personal version metadata used to display the Extension's built-in documentation.</li>
+                </ul>
+                <p>
+                    A non-personal, per-tab value may also be stored temporarily to remember that a branch reminder was dismissed.
+                    That value lasts only for the relevant Microsoft Edge tab session. When the Extension is first installed, the numeric
+                    IDs of Quria tabs that were already open can be held temporarily in extension session storage so the welcome page
+                    can tell the user which tabs need to be reloaded. Those IDs are removed when no longer needed.
+                </p>
+
+                <h3>Information the Extension does not store or collect for the developers</h3>
+                <p>
+                    The Extension is not designed to read Quria staff login passwords, authentication cookies, or authentication
+                    tokens, and it does not store them. It does not store patron PIN values, national identity numbers, contact
+                    details, search terms, barcodes, filled form values, payment information, or financial information. It does
+                    not contain analytics, advertising, fingerprinting, or cross-site tracking technology.
+                </p>
+
+                <h3>System clipboard</h3>
+                <p>
+                    If the user explicitly selects the copy function for a pick list, the Extension writes the selected titles to
+                    the operating system clipboard. It does not read the clipboard's existing contents or transmit copied titles.
+                </p>
+            </section>
+
+            <section aria-labelledby="use">
+                <h2 id="use">3. How information is used</h2>
+                <p>
+                    Information is used only on the user's device and only as necessary to provide or maintain the Extension's
+                    disclosed user-facing features. It is not used for advertising, profiling, credit decisions, marketing,
+                    resale, unrelated research, or any purpose unrelated to the Extension's single purpose.
+                </p>
+            </section>
+
+            <section aria-labelledby="transmission">
+                <h2 id="transmission">4. Network activity and data sharing</h2>
+                <p>
+                    The Extension does not operate a developer backend and does not transmit Quria content or locally stored
+                    settings to the developers, analytics services, advertising services, data brokers, or unrelated third parties.
+                    The developers therefore do not have access to information processed locally by the Extension.
+                </p>
+                <p>
+                    When a user invokes a feature, the Extension may interact with controls in the Quria interface. This can cause
+                    Quria to make its normal HTTPS application requests to the Quria service, in the same way that the corresponding
+                    manual action would. Those requests are part of Quria and are governed by the agreements and privacy practices
+                    of Axiell and the organization operating the user's Quria environment.
+                </p>
+            </section>
+
+            <section aria-labelledby="permissions">
+                <h2 id="permissions">5. Microsoft Edge permissions</h2>
+                <ul>
+                    <li><strong>Storage:</strong> saves the local preferences, reminders, configuration, and favorite schools described above.</li>
+                    <li><strong>Access to <code>https://*.quria.axiell.com/*</code>:</strong> allows the Extension to provide its features only on Axiell Quria tenant pages.</li>
+                </ul>
+                <p>The Extension does not request access to unrelated websites.</p>
+            </section>
+
+            <section aria-labelledby="retention">
+                <h2 id="retention">6. Retention and user control</h2>
+                <p>
+                    Locally stored preferences remain in the Microsoft Edge profile until the user changes them, uses the Extension's
+                    “Clear all data” control, clears extension data through Microsoft Edge, or removes the Extension. Users can disable
+                    the Extension without deleting their preferences. Resetting settings retains favorite schools but removes the
+                    other choices listed above; “Clear all data” removes all locally stored extension preferences and configuration.
+                </p>
+                <p>
+                    Users can review and change their feature choices, reminders, and configuration on the Extension's Settings page.
+                    The data overview in the Extension's Quria menu summarizes locally saved reminders, favorite schools, highlighted
+                    patron fields, and facet choices. The Extension does not provide the developers with access to this local data.
+                </p>
+            </section>
+
+            <section aria-labelledby="security">
+                <h2 id="security">7. Security</h2>
+                <p>
+                    The Extension is limited to HTTPS Quria tenant addresses, uses packaged code, and does not load executable code
+                    from remote servers. Because no system can be guaranteed completely secure, users should keep Microsoft Edge
+                    and the Extension updated and disable the Extension if Quria behaves unexpectedly.
+                </p>
+            </section>
+
+            <section aria-labelledby="edge-addons">
+                <h2 id="edge-addons">8. Microsoft Edge Add-ons data-use disclosure</h2>
+                <p>
+                    The Extension's handling of information follows the
+                    <a href="https://learn.microsoft.com/en-us/legal/microsoft-edge/extensions/developer-policies" rel="noopener noreferrer">Developer policies for the Microsoft Edge Add-ons website</a>.
+                    Information accessed through Microsoft Edge extension APIs and Quria pages is used only to provide or improve
+                    the Extension's disclosed single purpose and user-facing features. It is not sold, used for personalized advertising,
+                    or transferred to the developers or unrelated third parties. The developers do not receive this information and
+                    therefore do not make it available for human review.
+                </p>
+                <p>
+                    If a user voluntarily provides specific information in a support request, the developers use it only to respond to
+                    that request. Users must not provide sensitive Quria data through the public issue tracker. The Extension does not
+                    access or transmit support-request content.
+                </p>
+            </section>
+
+            <section aria-labelledby="changes">
+                <h2 id="changes">9. Changes to this policy</h2>
+                <p>
+                    This policy will be updated if the Extension's information-handling practices change. Material changes will also
+                    be disclosed prominently in the Extension before the changed handling begins, where required.
+                </p>
+            </section>
+
+            <section id="contact" aria-labelledby="contact-heading">
+                <h2 id="contact-heading">10. Contact</h2>
+                <p>
+                    Privacy questions and support requests can be submitted through the public
+                    <a href="https://github.com/jon-fallstrom/Quria-enhancements---Plugin-info/issues" rel="noopener noreferrer">Quria Enhancements site issue tracker</a>
+                    or the <a href="https://github.com/jon-fallstrom" rel="noopener noreferrer">maintainer's GitHub profile</a>.
+                    Do not include patron records, authentication information, or other sensitive Quria data in a public issue.
+                </p>
+            </section>
+        </article>
+    </main>
+
+    <footer class="site-footer">
+        <div class="site-footer-inner">
+            <span>Quria Enhancements privacy documentation.</span>
+            <a href="index.html">Return home</a>
+        </div>
+    </footer>
+</body>
+</html>
