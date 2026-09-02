@@ -60,9 +60,22 @@ Review the current [Microsoft Edge publishing instructions](https://learn.micros
 
 ### Swedish store-listing copy
 
-Recommended short description:
+Short description:
 
-> Valfria navigerings-, tillgänglighets- och arbetsflödesförbättringar för personal som använder Axiell Quria i Microsoft Edge.
+> Valfria navigerings-, tillgänglighets- och arbetsflödesförbättringar för personal i Axiell Quria. Inte kopplat till Axiell.
+
+This is not a recommendation to apply by hand. Partner Center takes the short description
+from the uploaded package and makes it read-only, so the source of truth is the
+`extensionDescription` message in `_locales/sv/messages.json` in the extension repository.
+Changing it requires a manifest edit, a new package, and a re-upload — update it there
+first, then mirror it here. The text must stay within the 132-character manifest limit;
+the wording above is 123.
+
+It drops the earlier "i Microsoft Edge" phrasing in favour of the affiliation disclaimer.
+The Edge Add-ons listing already supplies the browser context, and the disclaimer carries
+more weight because the extension name leads with a third-party product name (Edge
+developer policies 1.1.2 and 2.2). The fuller disclosure below remains the primary
+statement; the short description only points at it.
 
 Place this disclosure near the beginning of the full store description, immediately after the introductory feature description:
 
