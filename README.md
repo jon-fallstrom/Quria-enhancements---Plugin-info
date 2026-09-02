@@ -48,59 +48,25 @@ https://jon-fallstrom.github.io/Quria-enhancements---Plugin-info/privacy.html
 
 ## Microsoft Edge Add-ons submission
 
-The Partner Center privacy declarations must match `privacy.html`. In particular:
+Submission material is **not** kept in this repository. This one is public and holds only
+the published site and the privacy policy.
 
-- Single purpose: improve staff usability and workflows within Axiell Quria through optional, user-facing interface and keyboard features.
-- `storage`: save activation, feature choices, interface preferences, reminders, and the limited local configuration described in the privacy policy.
-- `https://*.quria.axiell.com/*`: run the selected features only on Axiell Quria tenant pages.
-- Remote code: no. The Manifest V3 package contains all executable code.
-- Data handling: Quria page content is accessed locally for the extension's user-facing features and is not transmitted to the developers or unrelated third parties.
+The Swedish store listing copy, the single-purpose and permission justifications, and the
+notes for certification all live in the private `Quria-Anonymiser` repository under
+`submission/`. They belong together and out of public view: the certification notes carry
+the walkthrough video's password, and keeping one copy of the listing text avoids the
+situation where the manifest and a second document disagree about what the store shows.
 
-Review the current [Microsoft Edge publishing instructions](https://learn.microsoft.com/en-us/microsoft-edge/extensions/publish/publish-extension) and [Microsoft Edge Add-ons developer policies](https://learn.microsoft.com/en-us/legal/microsoft-edge/extensions/developer-policies) before every submission.
+What this repository still owns:
 
-### Swedish store-listing copy
+- `privacy.html`, the policy Partner Center links to. It must be reviewed whenever the
+  extension changes its permissions, host access, storage, network behavior, clipboard
+  behavior, or handling of Quria page content.
+- `index.html`, the public overview.
 
-Short description:
-
-> Valfria navigerings-, tillgänglighets- och arbetsflödesförbättringar för personal i Axiell Quria. Inte kopplat till Axiell.
-
-This is not a recommendation to apply by hand. Partner Center takes the short description
-from the uploaded package and makes it read-only, so the source of truth is the
-`extensionDescription` message in `_locales/sv/messages.json` in the extension repository.
-Changing it requires a manifest edit, a new package, and a re-upload — update it there
-first, then mirror it here. The text must stay within the 132-character manifest limit;
-the wording above is 123.
-
-It drops the earlier "i Microsoft Edge" phrasing in favour of the affiliation disclaimer.
-The Edge Add-ons listing already supplies the browser context, and the disclaimer carries
-more weight because the extension name leads with a third-party product name (Edge
-developer policies 1.1.2 and 2.2). The fuller disclosure below remains the primary
-statement; the short description only points at it.
-
-Place this disclosure near the beginning of the full store description, immediately after the introductory feature description:
-
-> Quria Enhancements är ett oberoende webbläsartillägg för Microsoft Edge, utvecklat och publicerat av Jon Fällström och Vidar Kjaerstadius. Det är inte utvecklat, godkänt, sponsrat eller distribuerat av Axiell. Tillägget är avsett för behörig personal i organisationer som använder Axiell Quria. Varje organisation ansvarar för beslutet att installera och använda tillägget samt för att användningen följer organisationens IT-, informationssäkerhets- och dataskyddsregler.
-
-Follow it with the Quria access requirement:
-
-> Tillägget kräver ett befintligt, behörigt användarkonto i Axiell Quria. Quria-kontot och åtkomsten tillhandahålls inte av tilläggets utvecklare.
-
-### Certification without a Quria test account
-
-Quria access is issued and controlled by each customer organization. If reviewer credentials cannot be provided because an account would expose confidential patron and circulation data, explain that restriction clearly in **Notes for certification**. Microsoft policy permits a clear and reasonable explanation when test credentials cannot be supplied, but the submission should still give reviewers as much test evidence as possible.
-
-Provide an advertisement-free, unlisted walkthrough video recorded in Microsoft Edge against a non-production Quria environment containing only synthetic data. The video should show:
-
-1. Installation and the first-run consent flow.
-2. The extension remaining inactive until the user accepts the notice and enables it.
-3. The extension's permissions and restriction to `https://*.quria.axiell.com/*`.
-4. Representative navigation, accessibility, search, circulation, and patron-workflow features.
-5. Feature-by-feature controls, settings, the local data overview, reset, and clear-all behavior.
-6. Disabling and removing the extension without disrupting normal Quria operation.
-7. The extension version, Microsoft Edge version, and a statement that all shown records are synthetic.
-
-Add timestamps and concise testing steps to the certification notes. A video improves reviewability but should not be described as a guaranteed substitute for Microsoft's own testing.
-
+Review the current [Microsoft Edge publishing instructions](https://learn.microsoft.com/en-us/microsoft-edge/extensions/publish/publish-extension)
+and [Microsoft Edge Add-ons developer policies](https://learn.microsoft.com/en-us/legal/microsoft-edge/extensions/developer-policies)
+before every submission.
 ## Support and sensitive information
 
 General questions and documentation issues can be submitted through the [public issue tracker](https://github.com/jon-fallstrom/Quria-enhancements---Plugin-info/issues). Do not include patron records, authentication information, private Quria URLs, screenshots containing sensitive data, or other confidential material in an issue.
