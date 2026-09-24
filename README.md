@@ -69,4 +69,4 @@ and [Microsoft Edge Add-ons developer policies](https://learn.microsoft.com/en-u
 before every submission.
 ## Support and sensitive information
 
-General questions and documentation issues can be submitted through the [public issue tracker](https://github.com/jon-fallstrom/Quria-enhancements---Plugin-info/issues). Do not include patron records, authentication information, private Quria URLs, screenshots containing sensitive data, or other confidential material in an issue.
+General questions and documentation issues can be sent to [jon.fallstrom@gmail.com](mailto:jon.fallstrom@gmail.com). Do not include patron records, authentication information, private Quria URLs, screenshots containing sensitive data, or other confidential material in an email.
