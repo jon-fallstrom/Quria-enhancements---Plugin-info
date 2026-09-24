@@ -322,6 +322,23 @@ li + li {
     font-weight: 700;
 }
 
+.email-reveal {
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: var(--accent-strong);
+    cursor: pointer;
+    font: inherit;
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.18em;
+}
+
+.email-reveal:hover {
+    color: var(--text);
+}
+
 .callout {
     display: grid;
     grid-template-columns: minmax(220px, 0.8fr) minmax(0, 1.2fr);
